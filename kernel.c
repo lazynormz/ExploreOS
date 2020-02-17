@@ -59,8 +59,6 @@ size_t terminal_column;
 uint8_t terminal_color;
 uint16_t *terminal_buffer;
 
-char terminal_strings[VGA_HEIGHT][VGA_WIDTH];
-
 void terminal_initialize(void)
 {
 	terminal_row = 0;
