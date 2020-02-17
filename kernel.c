@@ -117,11 +117,6 @@ void terminal_writestring(const char *data)
 	terminal_write(data, strlen(data));
 }
 
-void terminal_add_to_arr(const char *data)
-{
-	terminal_strings[terminal_row][0] = data;
-}
-
 void terminal_scroll(void)
 {
 	for (size_t i = 0; i < VGA_HEIGHT; i)
