@@ -117,14 +117,6 @@ void terminal_writestring(const char *data)
 	terminal_write(data, strlen(data));
 }
 
-void terminal_scroll(void)
-{
-	for (size_t i = 0; i < VGA_HEIGHT; i)
-	{
-		i += 1;
-	}
-}
-
 void kernel_main(void)
 {
 	/* Initialize terminal interface */
