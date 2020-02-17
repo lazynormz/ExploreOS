@@ -127,6 +127,6 @@ void kernel_main(void)
 	char *str = "Hello String!\n";
 
 	terminal_writestring(str);
-	terminal_writestring("Hello Wld!\n");
+	terminal_writestring("Hello Wold!\n");
 	terminal_writestring("Hello World!\n");
 }
