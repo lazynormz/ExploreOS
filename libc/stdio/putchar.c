@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stddef.h>
  
 #if defined(__is_libk)
 #include <kernel/tty.h>
