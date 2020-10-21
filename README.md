@@ -20,8 +20,8 @@ I have **always** been interested in how and why operating systems operate, ther
 ### Prerequisites:
 | Name | Description |
 |--|--|
-| GCC-Cross-Compiler | Compiles the code an give an .ISO file |
-| Qemu | Runs the .ISO on a light virtual-machine |
+| **GCC-Cross-Compiler** | Compiles the code an give an .ISO file |
+| **Qemu** | Runs the .ISO on a light virtual-machine |
 
 ### Other than that...
 Go right ahead! Even if you don't know *anything* about OSDev, give it a try. You are an expert on the subject? Even better! Your contribution will - other than expanding the project - also help me a lot in exploring the world of OSDev! Therefore I believe ***any*** contribution will be a wonderful addition!
