@@ -5,4 +5,8 @@
 void kernel_main(void) {
 	terminal_initialize();
 	printf("Hello, kernel World!\n");
+
+	char* str = "Test-var";
+
+	printf("Test with var: %s\n", str);
 }
